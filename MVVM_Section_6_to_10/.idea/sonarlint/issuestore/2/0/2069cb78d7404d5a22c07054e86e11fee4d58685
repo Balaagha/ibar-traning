@@ -1,0 +1,5 @@
+
+=kotlin:S125"Remove this commented out code.(°íó¬8ß¨®‚ò.
+ekotlin:S1192,"GDefine a constant instead of duplicating this literal "\n\n\n" 3 times.(„å±[8Ìãª‚ò.
+`kotlin:S1144"BRemove this unused private "getRequestWithQueryParameters" method.(†³ÿy8ß¨®‚ò.
+`kotlin:S11443"ARemove this unused private "getRequestWithPathParameters" method.(óûÒÀ8ß¨®‚ò.

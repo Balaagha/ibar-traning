@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    tools:ignore="HardcodedText">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:text="Section 6 to section 10"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+            android:textStyle="bold" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/navigationSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Section 6 | Navigation Component" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/recyclerViewSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Section 7 | RecyclerView Using" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/coroutineSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Section 8 | Coroutine Section" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/roomSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Section 9 | Room Section" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/retrofitSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Section 10 | Retrofit Section" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
